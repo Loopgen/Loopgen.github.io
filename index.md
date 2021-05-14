@@ -101,7 +101,7 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
 
 <hr>
 
-* Models trained on the Looperman dataset
+#### Models trained on the Looperman dataset
 
 
 * real data
