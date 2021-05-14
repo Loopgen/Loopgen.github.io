@@ -16,7 +16,7 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 
 #### Models trained on the Freesound dataset 
 
-1. real data
+* real data
 
 <div id="wrap">
     <div>
@@ -30,8 +30,9 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
     </div>
 </div>
 
-
-2. UNAGAN
+<hr>
+ 
+* UNAGAN
 
 <div id="wrap">
     <div>
@@ -45,7 +46,9 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
     </div>
 </div>
 
-3. StyleGAN
+<hr>
+
+* StyleGAN
 
 <div id="wrap">
     <div>
@@ -59,7 +62,9 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
     </div>
 </div>
 
-4. StyleGAN2
+<hr>
+
+* StyleGAN2
 
 <div id="wrap">
     <div>
@@ -99,7 +104,7 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
 * Models trained on the Looperman dataset
 
 
-1. real data
+* real data
 
 <div id="wrap">
     <div>
@@ -113,8 +118,9 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
     </div>
 </div>
 
+<hr>
 
-2. UNAGAN
+* UNAGAN
 
 <div id="wrap">
     <div>
@@ -128,7 +134,9 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
     </div>
 </div>
 
-3. StyleGAN
+<hr>
+
+* StyleGAN
 
 <div id="wrap">
     <div>
@@ -142,7 +150,9 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
     </div>
 </div>
 
-4. StyleGAN2
+<hr>
+
+* StyleGAN2
 
 <div id="wrap">
     <div>
@@ -156,7 +166,9 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
     </div>
 </div>
 
-4. StyleGAN2_four_bar
+<hr>
+
+* StyleGAN2_four_bar
 
 <div id="wrap">
     <div>
