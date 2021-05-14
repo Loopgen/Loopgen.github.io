@@ -14,13 +14,19 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 
 <hr>
 
-##### Models trained on the Freesound dataset 
+#### Models trained on the Freesound dataset 
 
 1. real data
 <div id="wrap">
-    <audio src="demo_page/freesound/real_data/wav/18436_36084.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/18436_36084.png">
-    <audio src="demo_page/freesound/real_data/wav/20477_103296_3.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/20477_103296_3.png">
-    <audio src="demo_page/freesound/real_data/wav/21571_45941_11.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/21571_45941_11.png">
+    <div>
+        <audio src="demo_page/freesound/real_data/wav/18436_36084.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/18436_36084.png">
+    </div>
+    <div>
+        <audio src="demo_page/freesound/real_data/wav/20477_103296_3.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/20477_103296_3.png">
+    </div>
+    <div>
+        <audio src="demo_page/freesound/real_data/wav/21571_45941_11.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/21571_45941_11.png">
+    </div>
 </div>
 
 <br>
