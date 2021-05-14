@@ -14,7 +14,15 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 
 <hr>
 
-* Freesound 
+* Models trained on the Freesound dataset 
+
+1. real data
+<audio src="demo_page/freesound/real_data/wav/18436_36084.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/18436_36084.png">
+<audio src="demo_page/freesound/real_data/wav/20477_103296_3.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/20477_103296_3.png">
+<audio src="demo_page/freesound/real_data/wav/21571_45941_11.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/21571_45941_11.png">
+<br>
+2.
+
 
 |   |real data|unagan|stylegan|stylegan2|
 |1.| <audio src="demo_page/freesound/real_data/wav/18436_36084.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/18436_36084.png"> | <audio src="demo_page/freesound/unagan/wav/1.wav" controls="" preload=""></audio><img src="demo_page/freesound/unagan/fig/1.png"> | <audio src="demo_page/freesound/stylegan/wav/audio_1006.wav" controls="" preload=""></audio><img src="demo_page/freesound/stylegan/fig/spectrogram_1006.png"> | <audio src="demo_page/freesound/stylegan2/wav/1006.wav" controls="" preload=""></audio><img src="demo_page/freesound/stylegan2/fig/001006.png"> |
@@ -23,7 +31,13 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 
 <br>
 
-* stylegan2 interpolation for freesound
+* Interpolation result of the StyleGAN2 model trained on the Freesound dataset
+
+StyleGAN and StyleGAN2 show fascinating results in their style mixing experiments. These models generate images from a coarse-to-fine manner,  and it appears that the early coarse-style blocks control more of the generation of high-level visual attributes, such as pose and hairstyle, while the later fine-style blocks control the generation of finer visual attributes such as color and lightning.  The style-mixing experiment shows that we can interchange the style codes to the coarse-style and fine-style blocks of two input images A and B, and create the interpolated version whose high-level features come from one of the input images and low-level features from the other.
+Being inspired by this, we also conduct style-mixing using the StyleGAN2 model we trained. Specifically, we consider the first two blocks of our model as the coarse-style blocks, and the last two blocks as the fine-style blocks.  According to the interpolated result shown below, it seems the interpolated loop resembles the source audio in terms of timbre, and resembles the target audio in its rhythmic pattern.
+
+<hr>
+
 <img src="demo_page/freesound/stylegan2_interpolation/sample_mixing.png" class="sample">
 
 | |source_1<audio src="demo_page/freesound/stylegan2_interpolation/source_0.wav" controls="" preload=""></audio>|source_2<audio src="demo_page/freesound/stylegan2_interpolation/source_1.wav" controls="" preload=""></audio>|source_3<audio src="demo_page/freesound/stylegan2_interpolation/source_2.wav" controls="" preload=""></audio>|source_4<audio src="demo_page/freesound/stylegan2_interpolation/source_3.wav" controls="" preload=""></audio>|source_5<audio src="demo_page/freesound/stylegan2_interpolation/source_4.wav" controls="" preload=""></audio>|
@@ -35,7 +49,7 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 
 <hr>
 
-* Looper man 
+* Models trained on the Looperman dataset
 
 |   |real data|unagan|stylegan|stylegan2|stylegan2_four_bar|
 |1.|<audio src="demo_page/loooperman/real_data/wav/Zotiyac Type Drums_ShakotanZ_27th Oct 2018_130_Trap_Drum_Unknown_2.wav" controls="" preload=""></audio><img src="demo_page/loooperman/real_data/fig/Zotiyac Type Drums_ShakotanZ_27th Oct 2018_130_Trap_Drum_Unknown_2.png">|<audio src="demo_page/loooperman/unagan/wav/1.wav" controls="" preload=""></audio><img src="demo_page/loooperman/unagan/fig/1.png">|<audio src="demo_page/loooperman/stylegan/wav/audio_1006.wav" controls="" preload=""></audio><img src="demo_page/loooperman/stylegan/fig/spectrogram_1006.png">|<audio src="demo_page/loooperman/stylegan2/wav/9.wav" controls="" preload=""></audio><img src="demo_page/loooperman/stylegan2/fig/000009.png">|<audio src="demo_page/loooperman/stylegan2_four_bar/wav/1.wav" controls="" preload=""></audio><img src="demo_page/loooperman/stylegan2_four_bar/fig/000001.png">|
@@ -44,7 +58,8 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 
 <br>
 
-* stylegan2 interpolation for looper man one bar 
+* Interpolation result of the StyleGAN2 model trained on the Looperman dataset with one bar 
+
 
 <br>
 <img src="demo_page/loooperman/stylegan2_interpolation/sample_mixing.png" class="sample">
@@ -57,7 +72,7 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 <br>
 <br>
 
-* stylegan2 interpolation for looper man four bar 
+* Interpolation result of the StyleGAN2 model trained on the Looperman dataset with four bar 
 
 <br>
 <img src="demo_page/loooperman/stylegan2_interpolation_four_bar/sample_mixing.png" class="sample" >
