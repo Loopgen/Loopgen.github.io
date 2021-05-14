@@ -86,6 +86,7 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
 <hr>
 
 StyleGAN and StyleGAN2 show fascinating results in their style mixing experiments. These models generate images from a coarse-to-fine manner,  and it appears that the early coarse-style blocks control more of the generation of high-level visual attributes, such as pose and hairstyle, while the later fine-style blocks control the generation of finer visual attributes such as color and lightning.  The style-mixing experiment shows that we can interchange the style codes to the coarse-style and fine-style blocks of two input images A and B, and create the interpolated version whose high-level features come from one of the input images and low-level features from the other.
+
 Being inspired by this, we also conduct style-mixing using the StyleGAN2 model we trained. Specifically, we consider the first two blocks of our model as the coarse-style blocks, and the last two blocks as the fine-style blocks.  According to the interpolated result shown below, it seems the interpolated loop resembles the source audio in terms of timbre, and resembles the target audio in its rhythmic pattern.
 
 <hr>
