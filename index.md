@@ -30,6 +30,19 @@ We also show the result when we use the style-mixing technique of StyleGAN2 to g
     </div>
 </div>
 
+
+<div id="wrap">
+    <div>
+        <audio src="demo_page/freesound/real_data/wav/360375_3356610_3.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/360375_3356610_3.png">
+    </div>
+    <div>
+        <audio src="demo_page/freesound/real_data/wav/417759_6802113_6.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/417759_6802113_6.png">
+    </div>
+    <div>
+        <audio src="demo_page/freesound/real_data/wav/463606_179538_26.wav" controls="" preload=""></audio><img src="demo_page/freesound/real_data/fig/463606_179538_26.png">
+    </div>
+</div>
+
 <hr>
  
 * UNAGAN
