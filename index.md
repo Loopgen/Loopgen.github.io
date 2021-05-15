@@ -176,7 +176,7 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
         <audio src="demo_page/loooperman/real_data/wav/Zotiyac Type Drums_ShakotanZ_27th Oct 2018_130_Trap_Drum_Unknown_2.wav" controls="" preload=""></audio><img src="demo_page/loooperman/real_data/fig/Zotiyac Type Drums_ShakotanZ_27th Oct 2018_130_Trap_Drum_Unknown_2.png">
     </div>
     <div>
-        <audio src="demo_page/loooperman/real_data/fig/Zumde Beat_Fanto8BC_11th Mar 2018_90_Ambient_Drum_Unknown_1.png" controls="" preload=""></audio><img src="demo_page/loooperman/real_data/wav/Zumde Beat_Fanto8BC_11th Mar 2018_90_Ambient_Drum_Unknown_1.wav">
+        <audio src="demo_page/loooperman/real_data/wav/Zumde Beat_Fanto8BC_11th Mar 2018_90_Ambient_Drum_Unknown_1.wav" controls="" preload=""></audio><img src="demo_page/loooperman/real_data/fig/Zumde Beat_Fanto8BC_11th Mar 2018_90_Ambient_Drum_Unknown_1.png">
     </div>
 </div>
 
