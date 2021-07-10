@@ -320,3 +320,4 @@ Being inspired by this, we also conduct style-mixing using the StyleGAN2 model w
 
 ### Contact 
 
+
